@@ -5,7 +5,9 @@ Plain Storybook 10.6.7 with `@storybook/addon-mcp`.
 1. `npm install && npm run storybook`
 2. In another terminal:
 
-   curl -i http://127.0.0.1:6006/mcp -H 'content-type: application/json' -H 'accept: application/json, text/event-stream' -d 'null'
+```sh
+curl -i http://127.0.0.1:6006/mcp -H 'content-type: application/json' -H 'accept: application/json, text/event-stream' -d 'null'
+```
 
 3. You get a 400, then `storybook dev` exits with code 1.
 
